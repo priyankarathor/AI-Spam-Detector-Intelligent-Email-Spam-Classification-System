@@ -89,7 +89,6 @@ def home():
         "message": "AI Spam Detection API is Live Now"
     }
 
-# -----------------------------
 # Prediction API
 # -----------------------------
 @app.post("/predict")

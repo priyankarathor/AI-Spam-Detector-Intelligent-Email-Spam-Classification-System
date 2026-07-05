@@ -1,15 +1,7 @@
 fastapi
-
-uvicorn
-
+uvicorn[standard]
 scikit-learn
-
 pandas
-
 numpy
-
-nltk
-
+nltk==3.8.1
 python-multipart
-
-joblib
