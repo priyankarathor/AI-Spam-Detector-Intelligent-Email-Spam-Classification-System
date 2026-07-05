@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
 app = FastAPI()
-
+# //stop words details
 stop_word = set(stopwords.words('english'))
 porter_stemmer = PorterStemmer()
 
