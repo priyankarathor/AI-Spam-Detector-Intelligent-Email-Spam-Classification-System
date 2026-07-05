@@ -61,7 +61,7 @@ origins = [
     "http://127.0.0.1:3000",
 
     # Replace with your Vercel URL after deployment
-    "https://your-project.vercel.app",
+    "https://spam-detector-ai-dqso.vercel.app/",
 ]
 
 app.add_middleware(
