@@ -72,7 +72,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ==========================================================
 # NLP
 # ==========================================================
 
@@ -80,8 +79,7 @@ stop_word = set(stopwords.words("english"))
 
 porter_stemmer = PorterStemmer()
 
-# ==========================================================
-# Load Model
+# Load Model data
 # ==========================================================
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
